@@ -1,0 +1,20 @@
+spring:
+  main:
+    banner-mode: off
+  datasource:
+    url: jdbc:mysql://localhost:3306/quiz_game
+    username: root
+    password: your_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQLDialect
+server:
+  port: 8081
+
+
+
+
+
