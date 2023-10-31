@@ -20,7 +20,7 @@ public class WebSocketsController {
 
     @MessageMapping("/room.join")
     public void joinRoom(@Payload RoomJoinRequest joinRequest) {
-        roomService.joinRoom(joinRequest);
+//        roomService.joinRoom(joinRequest);
 
     }
 
